@@ -14,7 +14,7 @@ class Solution {
                 char top = stack.peek();
                 if ((ch == ')' && top == '(') || 
                     (ch == ']' && top == '[') || 
-                    (ch == '}' && top == '{')) {
+                    (ch == '}' && top == '{')){
                     stack.pop();
                 } else {
                     stack.push(ch);
